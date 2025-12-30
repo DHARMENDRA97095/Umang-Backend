@@ -32,6 +32,12 @@ router.post("/add",async (req,res)=>{
     
 })
 
+/*
+route /product/getAll
+***/ 
+
+
+
 
 router.get("/getAll",async (req,res)=>{
     try {
