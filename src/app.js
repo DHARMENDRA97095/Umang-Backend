@@ -11,6 +11,7 @@ import cloudinaryRouter from './routes/cloudinaryRoute.js'
 import bannerRouter from './routes/bannerRoute.js'
 import productRouter from './routes/productRoute.js'
 import  dashboardAnalyticsRouter from './routes/dashboardAnalyticsRoute.js'
+import blogCategory from './routes/blogCategory.js';
 
 //initiating App
 const app = express();
@@ -40,6 +41,7 @@ app.use('/api/v1/banner', bannerRouter)
 app.use('/api/v1/image', cloudinaryRouter);
 app.use('/api/v1/product', productRouter)
 app.use('/api/v1/category', categoryRouter);
+app.use('/api/v1/blogCategory',blogCategory)
 
 
 
